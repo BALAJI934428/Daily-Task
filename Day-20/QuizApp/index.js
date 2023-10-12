@@ -23,7 +23,7 @@ let highScoresButton = document.createElement("button");
 highScoresButton.setAttribute("class", "btn btn-primary p-2 mb-2");
 highScoresButton.innerText = "High Scores";
 highScoresButton.id = "highScores";
-highScoresButton.onclick = () => (window.location.href = "highScores.html");
+highScoresButton.onclick = () => (window.location.href = "highscores.html");
 container.append(highScoresButton);
 
 document.body.append(container);
